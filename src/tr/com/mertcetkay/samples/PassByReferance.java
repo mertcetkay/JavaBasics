@@ -20,4 +20,20 @@ public class PassByReferance {
     public static void main(String[] args) {
         testPassByReferance();
     }
+
+    /**
+     *  public class TestClass {
+         public int a;
+         public int b;
+
+         public TestClass(int a, int b) {
+         this.a = a;
+         this.b = b;
+         }
+
+         public void meth(TestClass o){
+         o.a *= 2;
+         o.b /= 2;
+        }
+     */
 }
